@@ -1,6 +1,6 @@
 # Manual Técnico - Proyecto Final de Programación
 
-Este documento proporciona una visión técnica detallada del sistema de hoja de cálculo desarrollado en Java. Está dirigido a desarrolladores interesados en comprender la arquitectura interna y la lógica de funcionamiento.
+Este documento proporciona una visión técnica detallada del sistema de hoja de cálculo desarrollado en Java.
 
 ## Objetivo del Proyecto
 El objetivo principal es simular una hoja de cálculo personalizada que permita al usuario crear y modificar celdas, agrupadas en hojas, usando una estructura interna basada en tabla hash.
