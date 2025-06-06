@@ -8,7 +8,7 @@ El objetivo principal es simular una hoja de cálculo personalizada que permita 
 ## Arquitectura General
 Se implementa el patrón Modelo-Vista-Controlador (MVC):
 
-- **Modelo**: Contiene las estructuras lógicas (`Libro`, `Hoja`, `Celda`, nodos, tabla hash).
+- **Modelo**: Contiene las estructuras lógicas (`Libro`, `Hoja`, `Celda`, `nodos`, `tabla hash`).
 - **Vista**: Interfaces gráficas desarrolladas con Swing.
 - **Controlador**: Clases que gestionan la comunicación entre vista y modelo.
 
