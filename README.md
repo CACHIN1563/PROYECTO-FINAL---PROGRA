@@ -1,4 +1,4 @@
-# 📊 Hoja de Cálculo Avanzada con Tabla Hash Personalizada
+# 📊 Hoja de Cálculo
 
 Este proyecto es una implementación de una **hoja de cálculo tipo Excel** desarrollada en Java, que incluye funcionalidades avanzadas como el uso de una matriz ortogonal para la gestión de celdas, soporte para múltiples hojas de cálculo y la capacidad de realizar operaciones básicas como suma y multiplicación. Además, como característica destacada, integra una **tabla hash personalizada** para la generación y visualización de índices de datos.
 
