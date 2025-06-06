@@ -45,8 +45,9 @@ El sistema está organizado en tres capas principales: modelo, vista y controlad
     └── PROYECTOFINAL_PROGRA.java
 ```
 
-## Autor
-[Nombre del desarrollador o equipo]  
+## Autores
+Carlos Cachin
+Ruben Gerardo García
 Junio 2025
 
 ## Licencia
