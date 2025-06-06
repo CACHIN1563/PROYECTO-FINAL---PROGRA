@@ -75,5 +75,5 @@ Se implementa el patrón Modelo-Vista-Controlador (MVC):
 - Mejoras en la interfaz (tema oscuro, validación visual de entradas).
 
 ## Créditos
-Desarrollado por [Nombre del desarrollador o grupo]  
+Desarrollado por Ruben García y Carlos Cachin
 Junio 2025
