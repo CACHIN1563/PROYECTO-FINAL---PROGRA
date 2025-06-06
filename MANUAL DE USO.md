@@ -1,54 +1,48 @@
-# Proyecto Final - Programación Orientada a Objetos
+# Manual de Usuario - Hoja Electrónica (Proyecto IV)
 
-Aplicación de escritorio desarrollada en Java que simula una hoja de cálculo personalizada utilizando una estructura de almacenamiento basada en tablas hash. Está construida con arquitectura MVC, permitiendo una clara separación entre lógica, interfaz y controladores.
-
-## Características
-- Interfaz gráfica intuitiva desarrollada con Swing
-- Gestión de múltiples hojas y celdas
-- Estructura de almacenamiento eficiente usando tabla hash
-- Patrón de arquitectura Modelo-Vista-Controlador (MVC)
+## Introducción
+Esta aplicación permite al usuario trabajar con hojas de cálculo personalizadas, en las que puede crear, modificar y calcular datos. Además, permite generar una tabla hash a partir de datos ingresados en una columna.
 
 ## Requisitos
-- Java Development Kit (JDK) 8 o superior
-- IDE recomendado: IntelliJ IDEA o NetBeans
-- Sistema operativo: Windows, Linux o macOS
+- Tener Java 8 o superior instalado
+- Ejecutar el programa desde un entorno como IntelliJ IDEA o NetBeans
 
-## Instrucciones de Ejecución
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/usuario/proyectofinal_progra.git
-   ```
-2. Abre el proyecto en tu IDE de preferencia.
-3. Ejecuta el archivo `PROYECTOFINAL_PROGRA.java`.
+## Inicio de la Aplicación
+1. Abrir el proyecto en el IDE
+2. Ejecutar la clase `PROYECTOFINAL_PROGRA.java`
+3. Se abrirá la ventana principal
 
-## Estructura General
-El sistema está organizado en tres capas principales: modelo, vista y controlador.
+## Uso General
+### Crear Hojas
+- Desde la interfaz, puedes crear nuevas hojas que se agregarán a una lista enlazada
 
-```
-├── Modelo:
-│   ├── Libro.java
-│   ├── Hoja.java
-│   ├── Celda.java
-│   ├── NodoHoja.java
-│   └── NodoCelda.java
-├── Vista:
-│   ├── VistaPrincipal.java
-│   └── VistaTablaHash.java
-├── Controlador:
-│   ├── ControladorPrincipal.java
-│   └── ControladorTablaHash.java
-├── Estructura:
-│   └── TablaHashPersonalizada.java
-├── Utilidades:
-│   └── UtilidadesCelda.java
-└── Main:
-    └── PROYECTOFINAL_PROGRA.java
-```
+### Ingresar Datos
+- Selecciona una celda en la hoja
+- Ingresa el valor deseado
+- Los datos se almacenan en una matriz ortogonal
 
-## Autores
-Carlos Cachin
-Ruben Gerardo García
+### Realizar Operaciones
+- Es posible aplicar operaciones básicas como **suma** y **multiplicación** dentro de las hojas
+
+## Tabla Hash
+1. Ir al menú "Archivo"
+2. Seleccionar "Tabla Hash"
+3. En la columna A, ingresar los datos a almacenar
+4. El sistema genera índices usando una función hash personalizada y los muestra a la derecha
+
+## Salida del Programa
+- Puedes cerrar la aplicación desde la ventana principal
+- (Opcional) Se podría implementar almacenamiento en disco
+
+## Recomendaciones
+- No utilizar caracteres especiales en los datos
+- Verificar que las operaciones se hagan en celdas con valores numéricos
+
+## Soporte
+En caso de errores o dudas, contactar al desarrollador.
+
+Universidad Mariano Gálvez  
+Centro: Boca del Monte  
+Programación III  
 Junio 2025
 
-## Licencia
-Proyecto académico. Su uso y modificación están permitidos con la debida atribución.
