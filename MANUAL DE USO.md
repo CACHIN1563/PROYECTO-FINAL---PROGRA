@@ -1,4 +1,4 @@
-# Manual de Usuario - Hoja Electrónica
+# Manual de Usuario
 
 ## Introducción
 Esta aplicación permite al usuario trabajar con hojas de cálculo personalizadas, en las que puede crear, modificar y calcular datos. Además, permite generar una tabla hash a partir de datos ingresados en una columna.
